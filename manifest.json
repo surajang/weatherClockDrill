@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "WeatherClock",
+  "short_name": "WeatherClock",
+  "description": "Show weather information from forecast.io",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+
+  "icons": {
+    "16": "assets/icon_16.png",
+    "128": "assets/icon_128.png"
+  },
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  
+  "permissions": [
+    "https://api.forecast.io/"
+  ]
+}
