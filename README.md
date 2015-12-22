@@ -5,6 +5,7 @@ This is a Chrome app training build that displays the current time and weather i
 * Displays the current time & date.
 * Displays the weather information from forecast.io with fixed location & options.
 * API key and location information are hardcoded in `main.js`.
+* Icons and assets sub folder is not yet created.
 
 ## How to fire up
 * Get your forecast.io API key from https://developer.forecast.io/
